@@ -33,3 +33,11 @@ This view helps you find and filter errors in your code and see their stack trac
 
 #### Security
 This feature is one of the most important features of Trace. It displays the known vulnerabilities that your services have and also provides suggestions on how to overcome these problems. It also goes through the installed npm packages to check for vulnerabilities and suggests if you can use an updated version. The issues are automatically closed when you have fixed them by either updating a package to a non-vulnerable version, applying a snyk patch, or removing the package completely.
+
+
+### Our Take on the Tool
+
+Advantages:
+* The visualization tools provide an easy way to locate errors and delays caused by different parts of the application.
+* The topology tool helps to visualize the communication links between differnt services of the application and their respective throughputs and resposne time.
+* The Security view gives you a regular updates on security vulnerabilities in the code and packages if any along with suggestions on how to solve the problem.
