@@ -38,6 +38,7 @@ This feature is one of the most important features of Trace. It displays the kno
 ### Our Take on the Tool
 
 Advantages:
+* The tool is easy to setup and start using.
 * The visualization tools provide an easy way to locate errors and delays caused by different parts of the application.
 * The topology tool helps to visualize the communication links between differnt services of the application and their respective throughputs and resposne time.
 * The Security view gives you a regular updates on security vulnerabilities in the code and packages if any along with suggestions on how to solve the problem.
