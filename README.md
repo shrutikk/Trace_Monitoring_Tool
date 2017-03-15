@@ -111,5 +111,5 @@ trace.incrementMetric('name/of/service')
 [Slides](https://youtu.be/Xv_XUjq8Pq4)
 
 ### Resources
-*     [Trace Documetation](https://trace-docs.risingstack.com/)
+[Trace Documetation](https://trace-docs.risingstack.com/)
 
