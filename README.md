@@ -101,5 +101,5 @@ trace.recordMetric('name/of/service', value)
 Following code can be added to use incremental metrics:<br/>
 
 ````
-trace.incrementMetric('name/pf/service')
+trace.incrementMetric('name/of/service')
 `````
