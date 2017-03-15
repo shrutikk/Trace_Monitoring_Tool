@@ -108,7 +108,7 @@ trace.incrementMetric('name/of/service')
 [Demo](https://youtu.be/Xv_XUjq8Pq4)
 
 ### Presentation
-[Slides](https://youtu.be/Xv_XUjq8Pq4)
+[Slides](https://docs.google.com/a/ncsu.edu/presentation/d/1cJa4H2nRK-fhaIkgbvlwWPh-TW3DBOgdeIBMHfM0l10/edit?usp=sharing)
 
 ### Resources
 [Trace Documetation](https://trace-docs.risingstack.com/)
