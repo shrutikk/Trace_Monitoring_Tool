@@ -1,7 +1,7 @@
 # Monitoring Tool: Trace
 
 ## Team Members
-* Shruti Kuber(skuber)
+* Shruti Kuber
 * Rounaq Saxena
 * Deepak Nair
 * Phaniprakash
