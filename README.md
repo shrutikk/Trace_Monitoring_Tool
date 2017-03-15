@@ -37,7 +37,6 @@ This feature is one of the most important features of Trace. It displays the kno
 
 ## Our Take on the Tool
 
-Advantages:
 * The tool is easy to setup and start using.
 * The visualization tools provide an easy way to locate errors and delays caused by different parts of the application.
 * The topology tool helps to visualize the communication links between differnt services of the application and their respective throughputs and resposne time.
@@ -53,7 +52,7 @@ Trace is very easy to setup. Following steps should be followed to setup Trace w
 3. Install the Trace collector as a dependency of your Node.js app using the following command:<br/>
       `npm install @risingstack/trace --save`
 
-4. Import Trace in your application. Best if it's included before anything else, as it instruments your other dependencies. Instrumentations for dependencies required before Trace might not work properly.<br/>
+4. Import Trace in your application code (The file that will be run to start the server). Best if it's included before anything else, as it instruments your other dependencies. Instrumentations for dependencies required before Trace might not work properly.<br/>
 ```
 // index.js
 
@@ -61,7 +60,7 @@ require('@risingstack/trace') // trace should be on top
 
 // your application code
 ```
-5. Create a trace config file to connect to the trace servers using the API key provided to you when you create a new infrastructure for your application on the Trace website. <br/><br/>
+5. Create a trace config file to connect to the trace servers using the API key provided to you when you create a new infrastructure for your application on the Trace website. Name this file `trace.config.js`<br/><br/>
   Following is the format of the file:
   
   ````// trace.config.js
@@ -72,4 +71,20 @@ module.exports = {
   ````
 6. Run the App (the server.js file in case of checkbox.io) and you can start monitoring your application immediately on the Trace website.
 
-7. 
+#### Setting Up Custom Metrics
+ The above configuration is used for generic monitoring of the complete application. If you want to monitor a specific API or service within your application this can be done with Custom Metrics.  Custom Metrics can be set up in the following way:
+ 
+ * **Record Metrics:** Record metrics is useful when you have multiple events that have a discrete value at a given point of time. With record metrics, you can see more precise values at any given time. With record metrics, you can build a histogram with the reported values.<br/>
+
+Following code can be added to record metrics:<br/>
+```
+trace.recordMetric('name/of/service', value)
+`````
+
+* **Incremental Metrics:** By using increment metrics you don't have to keep track of a value over time as you would in record metric, you simply have to call a function and everything will be done automatically. This comes handy when you would like to keep track of occurrences of events.<br/>
+
+Following code can be added to use incremental metrics:<br/>
+
+````
+trace.incrementMetric('name/pf/service')
+`````
