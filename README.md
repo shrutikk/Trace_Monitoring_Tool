@@ -2,7 +2,7 @@
 
 ## Team Members
 * Shruti Kuber
-* Rounaq Saxena
+* Raunaq Saxena
 * Deepak Nair
 * Phaniprakash
 
