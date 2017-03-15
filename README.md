@@ -28,6 +28,10 @@ This view displays the real-time information of the application. It allows the u
 ![Trace View](./Screenshots/Metrics_2.png)
 ![Trace View](./Screenshots/Metrics_3.png)
 
+
+### Screencast
+[Demo](https://youtu.be/Xv_XUjq8Pq4)
+
 #### Alerts
 
 This view is built on top of the Metrics View. It allows you to create alerts and monitor various metrics and send out alerts if they reach a certain threshold level. Trace provides integrations with various channels to send the alerts: Slack, OpsGenie, Webhooks and Email. It also provides the ability to create memory heapdumps and CPU profiles. Various useful alerts for events like downtime, excess memory usage can be created.
