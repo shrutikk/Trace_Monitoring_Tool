@@ -22,7 +22,7 @@ This view gathers information of the various transaction requests in the applica
 
 ![Trace View](./Screenshots/Trace.png)
 #### Metrics View
-This view displays the real-time information of the application. It allows the users to keep track of what is happening in the application. The various metrics that are reporting are: Resposne Time, Throughput, Memory Usage, CPU Utlization and many more. It also allows to set Custom Metrics by observing particular services or API's of interest.
+This view displays the real-time information of the application. It allows the users to keep track of what is happening in the application. The various metrics that are reported are: Resposne Time, Throughput, Memory Usage, CPU Utlization and many more. It also allows to set Custom Metrics by observing particular services or API's of interest.
 
 ![Trace View](./Screenshots/Metrics_1.png)
 ![Trace View](./Screenshots/Metrics_2.png)
@@ -36,7 +36,7 @@ This view is built on top of the Metrics View. It allows you to create alerts an
 ![Trace View](./Screenshots/Alerts_2.png)
 
 #### Profiler
-The profiler allows you to create Memory snapshots and CPU Profiles which can help you to debug the application. Heapdumps help you investigate how your applications allocate memory. You can compare them to find memory leaks.CPU profiles help you find out which function calls takes how much time.Once the Trace agents running on your services receives the request, it profiles the application for 10 seconds.
+The profiler allows you to create Memory snapshots and CPU Profiles which can help you to debug the application. Heapdumps help you investigate how your applications allocate memory. You can compare them to find memory leaks.CPU profiles help you find out which function call takes how much time.Once the Trace agents running on your services receives the request, it profiles the application for 10 seconds.
 
 ![Trace View](./Screenshots/Profiler.png)
 
